@@ -21,3 +21,26 @@ the subclasses must need to implement , I created two subclasses CAT , DOG  both
 other wise it will show compail time error 
 
 ![screenshot](abstractDOGwarning.png)
+````
+ ## what is the difference between abstract class and Interface ? 
+````
+## abstract class
+- Abstract classes  are cannot be instantiated we want to inherit to use.
+- Abstract classes have constructor that will be invoked when subclass object is created
+- can have abstract and concrete methods, subclasses must provide concrete implementations of these methods.
+- Can have instance variables (fields) with various access modifiers.Can have public, private, or protected members.
+## Interface
+- cannot be instantiated implement using another class to use the methods
+- do not have constructor that will not participate object creation.
+- only have abstract methods and constants, implementing classes must provide concrete implementations of all the methods.
+- Can only have constant fields (public static final), implicitly public, static, and final.
+- All members are implicitly public (prior to Java 9). Starting from Java 9, interfaces can also have private methods
+
+## Inheritance
+- A java class can only extend one abstract class
+- A Java class can implement multiple interfaces.
+- Interface inheritance allows a class to implement multiple interfaces, providing flexibility in achieving multiple inheritance-like behavior.
+
+# summary
+### Abstract classes are useful for providing a common base with shared implementation,
+### while interfaces define a contract for multiple unrelated classes to adhere to, allowing for more flexibility in terms of multiple inheritance.

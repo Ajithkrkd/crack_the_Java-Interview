@@ -1,14 +1,13 @@
 package com.ajith.abstractClassess;
 
-public  class Cat extends Animal {
+public class Crows extends Animal{
     @Override
     public void makeSound ( ) {
-        System.out.println ("making voice meow" );
+        System.out.println ("craa.... craa......  " );
     }
 
     @Override
     public void commutingStyle ( ) {
-        System.out.println ("walking , running");
+        System.out.println ("walking and flying !!" );
     }
-
 }
