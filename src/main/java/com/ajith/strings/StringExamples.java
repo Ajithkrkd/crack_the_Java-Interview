@@ -33,9 +33,17 @@ String separator = "$";
        }
 
 
+//    Input: command = "(al)G(al)()()G"
+//    Output: "alGalooG
 
-    public  void print(){
-     List <String> str =  splitWordsBySeparator ( words , separator );
-        System.out.println (str );
-       }
+public String interpret(String command) {
+    command = command.replace("()","o");
+    command = command.replace("(al)","al");
+    return command;
 }
+    public  void print() {
+        List < String > str = splitWordsBySeparator ( words, separator );
+        String re = interpret ( "G()()l" );
+        System.out.println ( re );
+    }
+    }
