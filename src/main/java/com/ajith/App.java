@@ -11,7 +11,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        StringExamples s = new StringExamples ();
-        s.print ();
+        Calculator calculator = new Calculator();
+        int a = calculator.sumNumber ( 1,2 );
+        System.out.println (a + "        anser" );
     }
 }
