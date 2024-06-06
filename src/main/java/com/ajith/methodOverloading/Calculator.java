@@ -1,4 +1,4 @@
-package com.ajith;
+package com.ajith.methodOverloading;
 
 public class Calculator {
     public  int sumNumber(int n1, int n2) {
