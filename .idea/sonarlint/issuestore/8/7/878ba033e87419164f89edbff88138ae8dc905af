@@ -1,20 +1,13 @@
 
-Q
-java:S3740"/Provide the parametrized type for this generic.(¦ô¯Éùÿÿÿÿ8±Ñ÷ş1
-Q
-java:S3740"/Provide the parametrized type for this generic.(¦ô¯Éùÿÿÿÿ8±Ñ÷ş1
-œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(·Ü®²8†¾Ï÷ş1J$fac18859-1535-4a54-947f-b7d6318c1d15
-œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(õëâØ8†¾Ï÷ş1J$836a9e8f-8c51-4b63-beba-6e8adcd5a0c5
-¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½úÑæûÿÿÿÿ8‡¾Ï÷ş1J$5f738b26-f80a-4ca7-bbc7-5d4e49257732
-¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Üæ½Ùûÿÿÿÿ8‡¾Ï÷ş1J$6b07e993-1c9c-4b7f-a75b-432f55177aa7
-›
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(µÕ—g8‡¾Ï÷ş1J$812b6195-8d2b-4dbe-9c34-091cda9e0983
-¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õ¸áµûÿÿÿÿ8‡¾Ï÷ş1J$cc96d089-415f-49b0-b64c-318d32c60a0a
-œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ù…Öù8‡¾Ï÷ş1J$58a25f53-5bd5-47ef-959f-25b4758e93b0
-~	java:S125Q"<This block of commented-out lines of code should be removed.( ““˜8•¾Ï÷ş1J$df67fa53-72ac-42b1-8287-40fc2420f8cb
+r	java:S106"+Replace this use of System.out by a logger.( ş¸øÿÿÿÿ8Ìƒş¾2J$c1030c06-3904-4901-a1d9-dcac2b00bbe5
+~	java:S125Z"<This block of commented-out lines of code should be removed.( ““˜8Îƒş¾2J$ba713571-6f5c-44a2-bb5f-55dcb893183c
+u
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¦ò ¿2J$f454bca0-f432-4709-a041-f1a54ecb6eae
+z
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Ğƒş¾2J$5b3ed6b9-7e04-4bb5-866d-7acca6365678
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8Ğƒş¾2J$78a05ff2-c2a6-44e7-8c7c-528c3f7209ff
+{
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8Ğƒş¾2J$c4f1ef67-02fa-4177-9119-da30afda68ae
+€
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ğƒş¾2J$16970261-76e1-4096-ae41-bcf3fcc19981

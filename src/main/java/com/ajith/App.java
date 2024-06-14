@@ -1,28 +1,37 @@
 package com.ajith;
 
-import com.ajith.graph.BreadthFirstSearch;
-import com.ajith.graph.Vertex;
-
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class App
 {
         public static void main( String[] args ) {
-            Vertex<Integer> v0 = new Vertex<Integer>(0);
-            Vertex<Integer> v1 = new Vertex<Integer>(1);
-            Vertex<Integer> v2 = new Vertex<Integer>(2);
-            Vertex<Integer> v3 = new Vertex<Integer>(3);
-            Vertex<Integer> v4 = new Vertex<Integer>(4);
-            Vertex<Integer> v5 = new Vertex<Integer>(5);
-            Vertex<Integer> v6 = new Vertex<Integer>(6);
+           String  s = "Test1ng-Leet=code-Q!";
 
-            v0.setNeighbors ( Arrays.asList ( v1,v5,v6 ) );
-            v1.setNeighbors ( Arrays.asList ( v3,v4,v5));
-            v4.setNeighbors ( Arrays.asList ( v2,v6));
-            v6.setNeighbors ( Arrays.asList ( v0));
+            char [] arr = s.toCharArray();
+            int p1 = 0;
+            int p2  = arr.length - 1;
 
-            BreadthFirstSearch bfs = new BreadthFirstSearch(v1);
-            bfs.traverse ();
+            while(p1 <= p2){
+                if(arr[p1] > 63 && arr[p1] <= 122 && arr[p2] >= 63 && arr[p2] <= 122 ){
+                    System.out.println (arr[p1] + " " + arr[p2] );
+                    char temp = arr[p1];
+                    arr[p1] = arr[p2];
+                    arr[p2] = temp;
+                p1++;
+                p2--;
+                }
+                if(arr[p1] <= 63 || arr[p1] >= 122){
+                    p1++;
+                }
+                if(arr[p2] <= 63 || arr[p2] >= 122){
+                    p2--;
+                }
+            }
+
         }
 
 }
